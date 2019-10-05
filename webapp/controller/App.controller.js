@@ -16,7 +16,7 @@ sap.ui.define(
 					oBundle.getText("mailBody")
 					);
 			},
-			
+	//format stock value		
 			formatStockValue: function(fUnitPrice,fStockUnits, fCurrency){
 			 	
 			 	var sBrowserLocale = sap.ui.getCore().getConfiguration().getLanguage();
