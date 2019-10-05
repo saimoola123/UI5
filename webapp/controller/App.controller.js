@@ -1,4 +1,5 @@
 //Developer 2 also changing first line
+//Developer 1 is changing at line 1
 sap.ui.define(
 	["sap/ui/core/mvc/Controller",
 	 "sap/m/library",
@@ -18,7 +19,7 @@ sap.ui.define(
 					);
 			},
 	//format stock value
-	//developer 2 changesasdasdczxc
+	//Developer 1 changes
 			formatStockValue: function(fUnitPrice,fStockUnits, fCurrency){
 			 	var sBrowserLocale = sap.ui.getCore().getConfiguration().getLanguage();
 			 	var oLocale = new Locale(sBrowserLocale);
