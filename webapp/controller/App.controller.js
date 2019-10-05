@@ -17,7 +17,7 @@ sap.ui.define(
 					);
 			},
 	//format stock value
-	//developer 2 changesasdasdczxc
+	
 			formatStockValue: function(fUnitPrice,fStockUnits, fCurrency){
 			 	var sBrowserLocale = sap.ui.getCore().getConfiguration().getLanguage();
 			 	var oLocale = new Locale(sBrowserLocale);
