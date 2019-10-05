@@ -7,7 +7,7 @@ sap.ui.define(
 	 "sap/m/ObjectAttribute"],
 	function(Controller, library, Locale, LocaleData, Currency, ObjectAttribute){
 		return Controller.extend("sai.moola.DataBinding.App",{
-			
+	//cahnges by user 2		
 			formatMail : function(sFirstName,sLastName){
 				var oBundle= this.getView().getModel("i18n").getResourceBundle();
 				return library.URLHelper.normalizeEmail(
